@@ -1,0 +1,90 @@
+!- Font Render
+Xft.dpi:96
+Xft.antialiasing:true
+Xft.rgba:rgb
+Xft.hinting:true
+Xft.lcdfilter:lcddefault
+
+*.cursorColor: #ebac54
+
+#include "/home/dragneel/.colorscheme/snow"
+
+URxvt*termName: rxvt-unicode-256color
+
+! ===================================
+! BLACK OR WHITE
+! ===================================
+! DARK MODE
+! ===================================
+!!!URxvt.background:	      #2f343f 
+URxvt.borderColor:	        #252839
+URxvt.foreground:           #F1F2E2
+URxvt.background:	        #252839
+URxvt.cursorColor:          #EFFDFF
+! ===================================
+! LIGHT MODE
+! ===================================
+!URxvt.foreground:          #252839
+!URxvt.background:	        #F1F2E2          
+!URxvt.borderColor:	        #F1F2E2
+!URxvt.cursorColor:         #000000
+
+!kuning#181012	    
+!biru#101e45
+! ====================================
+
+URxvt.borderless:           true
+URxvt.internalBorder:       16
+ 
+URxvt.colorBD:              #ffffff
+dxvt.colorIT:               #a761c2
+URxvt.colorUL:              #6d9cbe
+URxvt.underlineColor:       #333333
+URxvt.highlightColor:       #ebac54
+URxvt.highlightTextColor:   #151515
+ 
+URxvt.scrollstyle:plain
+URxvt.scrollBar:false
+URxvt.scrollTtyOutput:false
+URxvt.scrollWithBuffer:true
+URxvt.scrollTtyKeypress:true
+ 
+URxvt.cursorColor2:         #ebac54
+URxvt.cursorBlink:          true
+URxvt.cursorUnderline:      false
+URxvt.depth:24
+ 
+ 
+!- Copy/paste
+URxvt.iso14755: False
+
+URxvt.keysym.Shift-Alt-C: perl:clipboard:copy
+URxvt.keysym.Shift-Alt-V: perl:clipboard:paste 
+URxvt.underlineURLs:true
+URxvt.font:xft:iosevka\ Nerd\ Font:regular:size=10,\Monospace:regular:size=10
+xft:DejaVu Sans:size=12
+!URxvt.font:xft:Material:Regular:size=10
+!URxvt.font:xft:Monospace Regular:size=10
+URxvt.letterSpace: 1
+URxvt.transparent:false
+URxvt.shading:30
+!URxvt.geometry:80x35
+ 
+! Darken (0 .. 99) or lighten (101 .. 200) the transparent background.  A value of 100 means no shading
+URxvt*shading: 30
+!
+! Idk
+URxvt*boldMode: true
+
+!-Urgent Terminal for Notification
+URxvt*urgentOnBell: true
+ 
+URxvt*visualBell:   false
+ 
+
+! State:           ´bg´,     ´fg´,     ´bgalt´,  ´hlbg´,   ´hlfg´
+!rofi.color-normal: #2f343f,  #e7e8eb,  #2f343f,  #e7e8eb,  #2f343f
+!rofi.color-urgent: #2f343f,  #e7e8eb,  #2f343f,  #e7e8eb,  #2f343f
+!rofi.color-active: #2f343f,  #e7e8eb,  #2f343f,  #e7e8eb,  #2f343f
+!                  ´background´, ´border´
+rofi.color-window: #ffffff 
